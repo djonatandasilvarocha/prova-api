@@ -12,7 +12,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/prova")
 @CrossOrigin(origins = "*")
-public class ProvaController {
+public class ValidarNumero {
 
     @GetMapping("/validarNumero")
     public Map<String, Object> validarNumero(@RequestParam double numero) {
